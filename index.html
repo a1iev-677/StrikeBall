@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/adaptive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="top__menu">
+        <div class="container">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container">
+          <div class="header-content__inner">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Логотип">
+              <p>магазин тактического и страйкбольного снаряжения</p>
+            </div>
+            <div class="contact__info">
+              <div class="city-select">
+                <span>Ваш город</span>
+                <select>
+                  <option>Москва</option>
+                  <option>Новосибирск</option>
+                  <option>Красноярск</option>
+                  <option>Кемерово</option>
+                </select>
+              </div>
+              <a href="tel:88000000000">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.2461 10.1055C12.6758 9.51953 11.0547 8.42188 9.99216 8.42188C9.74607 8.42188 9.53122 8.47656 9.35544 8.58984C8.83591 8.92188 8.42185 9.17969 8.22263 9.17969C8.11325 9.17969 7.99607 9.08203 7.73825 8.85938L7.69529 8.82031C6.98044 8.19922 6.8281 8.03906 6.55075 7.75L6.48044 7.67578C6.42966 7.625 6.38669 7.57813 6.34372 7.53516C6.10154 7.28516 5.92575 7.10547 5.30466 6.40234L5.27732 6.37109C4.98044 6.03516 4.78513 5.81641 4.77341 5.65625C4.76169 5.5 4.89841 5.24609 5.24607 4.77344C5.66794 4.20312 5.68357 3.5 5.29685 2.68359C4.98825 2.03906 4.48435 1.42188 4.03904 0.878906L3.99997 0.832031C3.61716 0.363281 3.17185 0.128906 2.67575 0.128906C2.12497 0.128906 1.66794 0.425781 1.42575 0.582031C1.40622 0.59375 1.38669 0.609375 1.36716 0.621094C0.824192 0.964844 0.42966 1.4375 0.281223 1.91797C0.0585668 2.64062 -0.0898706 3.57813 0.976536 5.52734C1.89841 7.21484 2.73435 8.34766 4.06247 9.71094C5.31247 10.9922 5.86716 11.4062 7.10935 12.3047C8.49216 13.3047 9.82029 13.8789 10.75 13.8789C11.6133 13.8789 12.2929 13.8789 13.2617 12.7109C14.2773 11.4844 13.8554 10.7344 13.2461 10.1055ZM12.7968 12.2891C12.0156 13.2344 11.5664 13.2344 10.7539 13.2344C9.96091 13.2344 8.73044 12.6875 7.46482 11.7773C6.25388 10.9023 5.71482 10.5 4.49997 9.25391C3.21482 7.9375 2.40622 6.83984 1.5156 5.21094C0.574192 3.48828 0.67966 2.73437 0.871067 2.11328C0.972629 1.78125 1.27732 1.42578 1.69138 1.16797C1.71091 1.15625 1.73044 1.14062 1.75388 1.12891C1.96091 0.996094 2.30466 0.773438 2.67966 0.773438C2.99216 0.773438 3.2695 0.929688 3.53513 1.25391L3.57419 1.30078C4.57029 2.51953 5.34763 3.59766 4.76169 4.39453C4.34763 4.95312 4.12888 5.33203 4.16404 5.72266C4.19529 6.10156 4.44919 6.38672 4.832 6.81641L4.85935 6.84766C5.48825 7.55859 5.66794 7.74609 5.91794 8C5.96091 8.04297 6.00388 8.08984 6.05466 8.14062L6.12497 8.21484C6.41404 8.51562 6.57419 8.67969 7.30857 9.32422L7.35154 9.36328C7.66404 9.63672 7.8945 9.83594 8.23044 9.83594C8.5781 9.83594 8.96091 9.61719 9.68747 9.15234C9.76169 9.10547 9.86716 9.07812 9.99997 9.07812C10.8476 9.07812 12.3086 10.0469 12.8203 10.5742C13.289 11.0508 13.5234 11.4102 12.7968 12.2891Z"
+                    fill="#6B8B3D" />
+                </svg>
+                8 800 000 00 00
+              </a>
+            </div>
+            <div class="user__actions">
+              <button class="search__btn"><img src="./img/search-icon.svg" alt="Search Icon"></button>
+              <a href="#"><img src="./img/user-icon.svg" alt="User Icon">Войти</a>
+              <a href="#"><img src="./img/favorite-icon.svg" alt="Favorite Icon"> Избранное</a>
+              <a class="user__actions-cart" href="#"><img src="./img/cart-icon.svg" alt="Cart Icon">2</a>
+            </div>
+
+            <button class="header-burger" onclick="burgerShow()"><img src="./img/header-burger.svg"
+                alt="Burger Icon"></button>
+
+            <div class="burger-menu none">
+              <button class="burger-close" onclick="burgerShow()"><img src="./img/close.svg" alt="Close"></button>
+
+              <div class="user__actions">
+                <button class="search__btn"><img src="./img/search-icon.svg" alt="Search Icon"></button>
+                <a href="#">Войти</a>
+                <a href="#">Избранное</a>
+                <a class="user__actions-cart" href="#"><img src="./img/cart-icon.svg" alt="Cart Icon">2</a>
+              </div>
+
+              <nav class="top__menu">
+                <ul>
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Акции</a></li>
+                  <li><a href="#">Услуги</a></li>
+                  <li><a href="#">Гарантия</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </nav>
+
+              <div class="contact__info">
+                <div class="city-select">
+                  <span>Ваш город</span>
+                  <select>
+                    <option>Москва</option>
+                    <option>Новосибирск</option>
+                    <option>Красноярск</option>
+                    <option>Кемерово</option>
+                  </select>
+                </div>
+                <a href="tel:88000000000">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.2461 10.1055C12.6758 9.51953 11.0547 8.42188 9.99216 8.42188C9.74607 8.42188 9.53122 8.47656 9.35544 8.58984C8.83591 8.92188 8.42185 9.17969 8.22263 9.17969C8.11325 9.17969 7.99607 9.08203 7.73825 8.85938L7.69529 8.82031C6.98044 8.19922 6.8281 8.03906 6.55075 7.75L6.48044 7.67578C6.42966 7.625 6.38669 7.57813 6.34372 7.53516C6.10154 7.28516 5.92575 7.10547 5.30466 6.40234L5.27732 6.37109C4.98044 6.03516 4.78513 5.81641 4.77341 5.65625C4.76169 5.5 4.89841 5.24609 5.24607 4.77344C5.66794 4.20312 5.68357 3.5 5.29685 2.68359C4.98825 2.03906 4.48435 1.42188 4.03904 0.878906L3.99997 0.832031C3.61716 0.363281 3.17185 0.128906 2.67575 0.128906C2.12497 0.128906 1.66794 0.425781 1.42575 0.582031C1.40622 0.59375 1.38669 0.609375 1.36716 0.621094C0.824192 0.964844 0.42966 1.4375 0.281223 1.91797C0.0585668 2.64062 -0.0898706 3.57813 0.976536 5.52734C1.89841 7.21484 2.73435 8.34766 4.06247 9.71094C5.31247 10.9922 5.86716 11.4062 7.10935 12.3047C8.49216 13.3047 9.82029 13.8789 10.75 13.8789C11.6133 13.8789 12.2929 13.8789 13.2617 12.7109C14.2773 11.4844 13.8554 10.7344 13.2461 10.1055ZM12.7968 12.2891C12.0156 13.2344 11.5664 13.2344 10.7539 13.2344C9.96091 13.2344 8.73044 12.6875 7.46482 11.7773C6.25388 10.9023 5.71482 10.5 4.49997 9.25391C3.21482 7.9375 2.40622 6.83984 1.5156 5.21094C0.574192 3.48828 0.67966 2.73437 0.871067 2.11328C0.972629 1.78125 1.27732 1.42578 1.69138 1.16797C1.71091 1.15625 1.73044 1.14062 1.75388 1.12891C1.96091 0.996094 2.30466 0.773438 2.67966 0.773438C2.99216 0.773438 3.2695 0.929688 3.53513 1.25391L3.57419 1.30078C4.57029 2.51953 5.34763 3.59766 4.76169 4.39453C4.34763 4.95312 4.12888 5.33203 4.16404 5.72266C4.19529 6.10156 4.44919 6.38672 4.832 6.81641L4.85935 6.84766C5.48825 7.55859 5.66794 7.74609 5.91794 8C5.96091 8.04297 6.00388 8.08984 6.05466 8.14062L6.12497 8.21484C6.41404 8.51562 6.57419 8.67969 7.30857 9.32422L7.35154 9.36328C7.66404 9.63672 7.8945 9.83594 8.23044 9.83594C8.5781 9.83594 8.96091 9.61719 9.68747 9.15234C9.76169 9.10547 9.86716 9.07812 9.99997 9.07812C10.8476 9.07812 12.3086 10.0469 12.8203 10.5742C13.289 11.0508 13.5234 11.4102 12.7968 12.2891Z"
+                      fill="#6B8B3D" />
+                  </svg>
+                  8 800 000 00 00
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <nav class="bottom-menu">
+        <div class="container">
+          <div class="bottom-menu__inner">
+            <button class="catalog-btn" onclick="catalogShow()"><img src="./img/burger.svg"
+                alt="Burger Icon">Каталог</button>
+            <a href="#">Аренда оборудования</a>
+            <a href="#">Ремонт и тюнинг</a>
+            <a href="#">Для юр лиц</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="catalog-menu none">
+            <ul>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Вооружение</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Магазины и Лоадеры</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Аккумуляторы и ЗУ</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Снаряжение</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Одежда и Экипировка</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Внешний обвес</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Медицина</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Запчасти</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">Пиротехника</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" class="catalog-menu__link">расходники</a>
+                <ul class="catalog-menu__sublist">
+                  <li><a href="#">Магазины для автоматов, винтовок, пулеметов</a></li>
+                  <li><a href="#">Магазины для пистолетов</a></li>
+                  <li><a href="#">Лоадеры</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <button class="catalog-menu__close" onclick="catalogShow()"><img src="./img/close.svg" alt="Close"></button>
+          </div>
+
+          <div class="hero__inner">
+            <div class="hero__col">
+              <div class="hero__text">
+                <h2>Именинникам скидка 10%</h2>
+                <p>В день рождения, а также 3 дня до и после. при <br> наличии документа подтверждающего дату рождения
+                </p>
+              </div>
+              <a href="#" class="hero__btn">Перейти</a>
+            </div>
+            <div class="hero__soc">
+              <h2>Мы в соц сетях</h2>
+              <div class="hero__soc-list">
+                <a href="#"><img src="./img/vk.svg" alt="VK"></a>
+                <a href="#"><img src="./img/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="./img/telegram.svg" alt="Telegram"></a>
+                <a href="#"><img src="./img/talk.svg" alt="Talk"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper hero-swiper">
+            <div class="swiper-wrapper" style="width: 100%; height: fit-content;">
+              <img class="swiper-slide" src="./img/hero-slider.jpg" alt="Hero Slider">
+              <img class="swiper-slide" src="./img/hero-slider.jpg" alt="Hero Slider">
+              <img class="swiper-slide" src="./img/hero-slider.jpg" alt="Hero Slider">
+            </div>
+          </div>
+          <div class="swiper-pagination hero-swiper-pagination"></div>
+
+        </div>
+      </section>
+
+      <section class="sale">
+        <div class="container">
+          <div class="sale__inner">
+            <div class="title">
+              <img src="./img/sale-icon.svg" alt="Sale Icon">
+              <h2>Распродажа</h2>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper product-card-swapper">
+                <div class="swiper-wrapper" style="width: 100%; height: fit-content;">
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next swiper-button-next-product-card"></div>
+              <div class="swiper-button-prev swiper-button-prev-product-card"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container">
+          <div class="promo__inner">
+            <div class="title">
+              <img src="./img/sale-icon.svg" alt="Sale Icon">
+              <h2>Акции</h2>
+            </div>
+            <div class="promo__list">
+              <div class="promo__item">
+                <img src="./img/promo.jpg" alt="promo" class="promo__img">
+                <h3 class="promo__title">Название акции</h3>
+                <p class="promo__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+                <button class="promo__button">Подробнее</button>
+              </div>
+              <div class="promo__item">
+                <img src="./img/promo.jpg" alt="promo" class="promo__img">
+                <h3 class="promo__title">Название акции</h3>
+                <p class="promo__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+                <button class="promo__button">Подробнее</button>
+              </div>
+              <div class="promo__item">
+                <img src="./img/promo.jpg" alt="promo" class="promo__img">
+                <h3 class="promo__title">Название акции</h3>
+                <p class="promo__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+                <button class="promo__button">Подробнее</button>
+              </div>
+              <div class="promo__item">
+                <img src="./img/promo.jpg" alt="promo" class="promo__img">
+                <h3 class="promo__title">Название акции</h3>
+                <p class="promo__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+                <button class="promo__button">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__block">
+              <h2 class="about__title">О нас</h2>
+              <p class="about__text">
+                Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь
+                показать наличие самого текста или продемонстрировать типографику в деле.Рыбатекст используется
+                дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы
+                содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие
+                самого текста или продемонстрировать типографику в деле.Рыбатекст используется дизайнерами,
+                проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это
+                тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или
+                продемонстрировать типографику в деле.Рыбатекст используется дизайнерами, проектировщиками и
+                фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент,
+                который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать
+                типографику в деле.
+              </p>
+              <p class="about__text">
+                Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь
+                показать наличие самого текста или продемонстрировать типографику в деле.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="new">
+        <div class="container">
+          <div class="new__inner">
+            <div class="title">
+              <img src="./img/new-icon.svg" alt="New Icon">
+              <h2>НОВИНКИ</h2>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper product-card-swapper">
+                <div class="swiper-wrapper" style="width: 100%; height: fit-content;">
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                  <div class="swiper-slide product__card">
+                    <div class="product__card-top">
+                      <div class="tag">коллекция</div>
+                      <button class="favorite"><img src="./img/product-card-favorite.svg"
+                          alt="Product Card Favorite"></button>
+                    </div>
+                    <a href="/card.html"><img src="./img/product.png" alt="Product" class="product__image"></a>
+                    <a href="#">
+                      <h3 class="product__title">Автомат CYMA К-74 TRAX2 страйкбольный (CM076C)</h3>
+                    </a>
+                    <div class="product__price">
+                      <span class="new-price">17 300 руб.</span>
+                      <span class="old-price">19 300 руб.</span>
+                    </div>
+                    <button class="add-to-cart">в корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next swiper-button-next-product-card"></div>
+              <div class="swiper-button-prev swiper-button-prev-product-card"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <div class="catalog__inner">
+          <div class="container">
+            <div class="title">
+              <img src="./img/catalog-icon.svg" alt="Catalog Icon">
+              <h2>каталог</h2>
+            </div>
+          </div>
+          <div class="catalog__list">
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-big" src="./img/catalog-img-1.jpg"
+                alt="Catalog Image">
+            </div>
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-small" src="./img/catalog-img-2.jpg"
+                alt="Catalog Image">
+            </div>
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-small" src="./img/catalog-img-3.jpg"
+                alt="Catalog Image">
+            </div>
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-small" src="./img/catalog-img-4.jpg"
+                alt="Catalog Image">
+            </div>
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-small" src="./img/catalog-img-5.jpg"
+                alt="Catalog Image">
+            </div>
+            <div class="catalog__item">
+              <h4>название категории</h4><img class="catalog__img catalog__img-big" src="./img/catalog-img-6.jpg"
+                alt="Catalog Image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="review">
+        <div class="container">
+          <div class="review__inner">
+            <div class="title">
+              <img src="./img/review-icon.svg" alt="Review Icon">
+              <h2>Отзывы</h2>
+            </div>
+            <div class="review__list">
+              <div class="review__item">
+                <img class="review__img" src="./img/review-img.png" alt="Review Image">
+                <h3 class="review__title">фамилия имя</h3>
+                <p class="review__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+              </div>
+              <div class="review__item">
+                <img class="review__img" src="./img/review-img.png" alt="Review Image">
+                <h3 class="review__title">фамилия имя</h3>
+                <p class="review__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+              </div>
+              <div class="review__item">
+                <img class="review__img" src="./img/review-img.png" alt="Review Image">
+                <h3 class="review__title">фамилия имя</h3>
+                <p class="review__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+              </div>
+              <div class="review__item">
+                <img class="review__img" src="./img/review-img.png" alt="Review Image">
+                <h3 class="review__title">фамилия имя</h3>
+                <p class="review__text">
+                  Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить
+                  макеты или прототипы содержимым.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container">
+          <div class="title">
+            <h2>контакты</h2>
+          </div>
+          <div class="contacts__list">
+
+            <div class="contacts__item">
+              <h3 class="contacts__title">Москва</h3>
+              <p class="contacts__text">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 22.6282L12.6344 22.1813C12.3906 21.8563 6.17499 14.5845 6.17499 10.2376C6.17499 6.45947 9.26249 3.4126 13 3.4126C16.7375 3.4126 19.825 6.5001 19.825 10.2376C19.825 14.5845 13.6094 21.897 13.3656 22.1813L13 22.6282ZM13 4.34697C9.74999 4.34697 7.14999 6.9876 7.14999 10.197C7.14999 13.6095 11.6594 19.4188 13 21.0845C14.3406 19.4188 18.85 13.6501 18.85 10.197C18.85 6.9876 16.25 4.34697 13 4.34697Z"
+                    fill="#6B8B3D" />
+                  <path
+                    d="M13 12.8377C11.5781 12.8377 10.4 11.6596 10.4 10.2377C10.4 8.81582 11.5781 7.6377 13 7.6377C14.4219 7.6377 15.6 8.81582 15.6 10.2377C15.6 11.6596 14.4219 12.8377 13 12.8377ZM13 8.6127C12.1062 8.6127 11.375 9.34395 11.375 10.2377C11.375 11.1314 12.1062 11.8627 13 11.8627C13.8937 11.8627 14.625 11.1314 14.625 10.2377C14.625 9.34395 13.8937 8.6127 13 8.6127Z"
+                    fill="#6B8B3D" />
+                </svg>
+                <span>Россия, г. Москва, Комсомольская площадь, 6. Универмаг "Московский", 2 этаж, павильон 224.</span>
+              </p>
+              <a class="contacts__phone" href="tel:+79160724826"><svg width="23" height="23" viewBox="0 0 23 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.683 15.0712C18.0272 14.3974 16.1629 13.1351 14.941 13.1351C14.658 13.1351 14.4109 13.1979 14.2088 13.3282C13.6113 13.7101 13.1352 14.0065 12.9061 14.0065C12.7803 14.0065 12.6455 13.8942 12.349 13.6382L12.2996 13.5933C11.4775 12.879 11.3023 12.6948 10.9834 12.3624L10.9025 12.2771C10.8441 12.2187 10.7947 12.1647 10.7453 12.1153C10.4668 11.8278 10.2647 11.6212 9.55039 10.8126L9.51895 10.7767C9.17754 10.3903 8.95293 10.1388 8.93946 9.95459C8.92598 9.7749 9.08321 9.48291 9.48301 8.93936C9.96817 8.2835 9.98614 7.4749 9.54141 6.53604C9.18653 5.79482 8.60703 5.08506 8.09492 4.46064L8.05 4.40674C7.60977 3.86768 7.09766 3.59814 6.52715 3.59814C5.89375 3.59814 5.36817 3.93955 5.08965 4.11924C5.06719 4.13271 5.04473 4.15068 5.02227 4.16416C4.39785 4.55947 3.94414 5.10303 3.77344 5.65557C3.51739 6.48662 3.34668 7.56475 4.57305 9.80635C5.63321 11.747 6.59453 13.0497 8.12188 14.6175C9.55938 16.0909 10.1973 16.5671 11.6258 17.6003C13.216 18.7503 14.7434 19.4106 15.8125 19.4106C16.8053 19.4106 17.5869 19.4106 18.701 18.0675C19.8689 16.6569 19.3838 15.7944 18.683 15.0712ZM18.1664 17.5823C17.268 18.6694 16.7514 18.6694 15.817 18.6694C14.9051 18.6694 13.49 18.0405 12.0346 16.9938C10.642 15.9876 10.0221 15.5249 8.625 14.0919C7.14707 12.578 6.21719 11.3157 5.19297 9.44248C4.11035 7.46143 4.23164 6.59443 4.45176 5.88018C4.56856 5.49834 4.91895 5.08955 5.39512 4.79307C5.41758 4.77959 5.44004 4.76162 5.46699 4.74814C5.70508 4.59541 6.10039 4.33936 6.53164 4.33936C6.89102 4.33936 7.20996 4.51904 7.51543 4.89189L7.56035 4.9458C8.70586 6.34736 9.59981 7.58721 8.92598 8.50361C8.44981 9.146 8.19824 9.58174 8.23867 10.031C8.27461 10.4667 8.5666 10.7946 9.00684 11.2888L9.03828 11.3247C9.76153 12.1423 9.96817 12.3579 10.2557 12.6499C10.3051 12.6993 10.3545 12.7532 10.4129 12.8116L10.4938 12.897C10.8262 13.2429 11.0104 13.4315 11.8549 14.1728L11.9043 14.2177C12.2637 14.5321 12.5287 14.7612 12.915 14.7612C13.3148 14.7612 13.7551 14.5097 14.5906 13.9751C14.676 13.9212 14.7973 13.8897 14.95 13.8897C15.9248 13.8897 17.6049 15.0038 18.1934 15.6103C18.7324 16.1583 19.002 16.5716 18.1664 17.5823Z"
+                    fill="#6B8B3D" />
+                </svg>
+                +7(916) 072-48-26</a>
+            </div>
+
+            <div class="contacts__item">
+              <h3 class="contacts__title">Новосибирск</h3>
+              <p class="contacts__text">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 22.6282L12.6344 22.1813C12.3906 21.8563 6.17499 14.5845 6.17499 10.2376C6.17499 6.45947 9.26249 3.4126 13 3.4126C16.7375 3.4126 19.825 6.5001 19.825 10.2376C19.825 14.5845 13.6094 21.897 13.3656 22.1813L13 22.6282ZM13 4.34697C9.74999 4.34697 7.14999 6.9876 7.14999 10.197C7.14999 13.6095 11.6594 19.4188 13 21.0845C14.3406 19.4188 18.85 13.6501 18.85 10.197C18.85 6.9876 16.25 4.34697 13 4.34697Z"
+                    fill="#6B8B3D" />
+                  <path
+                    d="M13 12.8377C11.5781 12.8377 10.4 11.6596 10.4 10.2377C10.4 8.81582 11.5781 7.6377 13 7.6377C14.4219 7.6377 15.6 8.81582 15.6 10.2377C15.6 11.6596 14.4219 12.8377 13 12.8377ZM13 8.6127C12.1062 8.6127 11.375 9.34395 11.375 10.2377C11.375 11.1314 12.1062 11.8627 13 11.8627C13.8937 11.8627 14.625 11.1314 14.625 10.2377C14.625 9.34395 13.8937 8.6127 13 8.6127Z"
+                    fill="#6B8B3D" />
+                </svg>
+                <span>Россия, г. Новосибирск, ул.Большевистская, 43/1. ТЦ "Речной", цокольный этаж.</span>
+              </p>
+              <a class="contacts__phone" href="tel:+73833832038"><svg width="23" height="23" viewBox="0 0 23 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.683 15.0712C18.0272 14.3974 16.1629 13.1351 14.941 13.1351C14.658 13.1351 14.4109 13.1979 14.2088 13.3282C13.6113 13.7101 13.1352 14.0065 12.9061 14.0065C12.7803 14.0065 12.6455 13.8942 12.349 13.6382L12.2996 13.5933C11.4775 12.879 11.3023 12.6948 10.9834 12.3624L10.9025 12.2771C10.8441 12.2187 10.7947 12.1647 10.7453 12.1153C10.4668 11.8278 10.2647 11.6212 9.55039 10.8126L9.51895 10.7767C9.17754 10.3903 8.95293 10.1388 8.93946 9.95459C8.92598 9.7749 9.08321 9.48291 9.48301 8.93936C9.96817 8.2835 9.98614 7.4749 9.54141 6.53604C9.18653 5.79482 8.60703 5.08506 8.09492 4.46064L8.05 4.40674C7.60977 3.86768 7.09766 3.59814 6.52715 3.59814C5.89375 3.59814 5.36817 3.93955 5.08965 4.11924C5.06719 4.13271 5.04473 4.15068 5.02227 4.16416C4.39785 4.55947 3.94414 5.10303 3.77344 5.65557C3.51739 6.48662 3.34668 7.56475 4.57305 9.80635C5.63321 11.747 6.59453 13.0497 8.12188 14.6175C9.55938 16.0909 10.1973 16.5671 11.6258 17.6003C13.216 18.7503 14.7434 19.4106 15.8125 19.4106C16.8053 19.4106 17.5869 19.4106 18.701 18.0675C19.8689 16.6569 19.3838 15.7944 18.683 15.0712ZM18.1664 17.5823C17.268 18.6694 16.7514 18.6694 15.817 18.6694C14.9051 18.6694 13.49 18.0405 12.0346 16.9938C10.642 15.9876 10.0221 15.5249 8.625 14.0919C7.14707 12.578 6.21719 11.3157 5.19297 9.44248C4.11035 7.46143 4.23164 6.59443 4.45176 5.88018C4.56856 5.49834 4.91895 5.08955 5.39512 4.79307C5.41758 4.77959 5.44004 4.76162 5.46699 4.74814C5.70508 4.59541 6.10039 4.33936 6.53164 4.33936C6.89102 4.33936 7.20996 4.51904 7.51543 4.89189L7.56035 4.9458C8.70586 6.34736 9.59981 7.58721 8.92598 8.50361C8.44981 9.146 8.19824 9.58174 8.23867 10.031C8.27461 10.4667 8.5666 10.7946 9.00684 11.2888L9.03828 11.3247C9.76153 12.1423 9.96817 12.3579 10.2557 12.6499C10.3051 12.6993 10.3545 12.7532 10.4129 12.8116L10.4938 12.897C10.8262 13.2429 11.0104 13.4315 11.8549 14.1728L11.9043 14.2177C12.2637 14.5321 12.5287 14.7612 12.915 14.7612C13.3148 14.7612 13.7551 14.5097 14.5906 13.9751C14.676 13.9212 14.7973 13.8897 14.95 13.8897C15.9248 13.8897 17.6049 15.0038 18.1934 15.6103C18.7324 16.1583 19.002 16.5716 18.1664 17.5823Z"
+                    fill="#6B8B3D" />
+                </svg>
+                +7 (383) 38-320-38</a>
+            </div>
+
+            <div class="contacts__item">
+              <h3 class="contacts__title">Красноярск</h3>
+              <p class="contacts__text">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 22.6282L12.6344 22.1813C12.3906 21.8563 6.17499 14.5845 6.17499 10.2376C6.17499 6.45947 9.26249 3.4126 13 3.4126C16.7375 3.4126 19.825 6.5001 19.825 10.2376C19.825 14.5845 13.6094 21.897 13.3656 22.1813L13 22.6282ZM13 4.34697C9.74999 4.34697 7.14999 6.9876 7.14999 10.197C7.14999 13.6095 11.6594 19.4188 13 21.0845C14.3406 19.4188 18.85 13.6501 18.85 10.197C18.85 6.9876 16.25 4.34697 13 4.34697Z"
+                    fill="#6B8B3D" />
+                  <path
+                    d="M13 12.8377C11.5781 12.8377 10.4 11.6596 10.4 10.2377C10.4 8.81582 11.5781 7.6377 13 7.6377C14.4219 7.6377 15.6 8.81582 15.6 10.2377C15.6 11.6596 14.4219 12.8377 13 12.8377ZM13 8.6127C12.1062 8.6127 11.375 9.34395 11.375 10.2377C11.375 11.1314 12.1062 11.8627 13 11.8627C13.8937 11.8627 14.625 11.1314 14.625 10.2377C14.625 9.34395 13.8937 8.6127 13 8.6127Z"
+                    fill="#6B8B3D" />
+                </svg>
+                <span>Россия, г.Кемерово, пр.Ленина, 90/1. ТЦ "Променад-1", цокольный этаж, павильон 21.</span>
+              </p>
+              <a class="contacts__phone" href="tel:+739129867789"><svg width="23" height="23" viewBox="0 0 23 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.683 15.0712C18.0272 14.3974 16.1629 13.1351 14.941 13.1351C14.658 13.1351 14.4109 13.1979 14.2088 13.3282C13.6113 13.7101 13.1352 14.0065 12.9061 14.0065C12.7803 14.0065 12.6455 13.8942 12.349 13.6382L12.2996 13.5933C11.4775 12.879 11.3023 12.6948 10.9834 12.3624L10.9025 12.2771C10.8441 12.2187 10.7947 12.1647 10.7453 12.1153C10.4668 11.8278 10.2647 11.6212 9.55039 10.8126L9.51895 10.7767C9.17754 10.3903 8.95293 10.1388 8.93946 9.95459C8.92598 9.7749 9.08321 9.48291 9.48301 8.93936C9.96817 8.2835 9.98614 7.4749 9.54141 6.53604C9.18653 5.79482 8.60703 5.08506 8.09492 4.46064L8.05 4.40674C7.60977 3.86768 7.09766 3.59814 6.52715 3.59814C5.89375 3.59814 5.36817 3.93955 5.08965 4.11924C5.06719 4.13271 5.04473 4.15068 5.02227 4.16416C4.39785 4.55947 3.94414 5.10303 3.77344 5.65557C3.51739 6.48662 3.34668 7.56475 4.57305 9.80635C5.63321 11.747 6.59453 13.0497 8.12188 14.6175C9.55938 16.0909 10.1973 16.5671 11.6258 17.6003C13.216 18.7503 14.7434 19.4106 15.8125 19.4106C16.8053 19.4106 17.5869 19.4106 18.701 18.0675C19.8689 16.6569 19.3838 15.7944 18.683 15.0712ZM18.1664 17.5823C17.268 18.6694 16.7514 18.6694 15.817 18.6694C14.9051 18.6694 13.49 18.0405 12.0346 16.9938C10.642 15.9876 10.0221 15.5249 8.625 14.0919C7.14707 12.578 6.21719 11.3157 5.19297 9.44248C4.11035 7.46143 4.23164 6.59443 4.45176 5.88018C4.56856 5.49834 4.91895 5.08955 5.39512 4.79307C5.41758 4.77959 5.44004 4.76162 5.46699 4.74814C5.70508 4.59541 6.10039 4.33936 6.53164 4.33936C6.89102 4.33936 7.20996 4.51904 7.51543 4.89189L7.56035 4.9458C8.70586 6.34736 9.59981 7.58721 8.92598 8.50361C8.44981 9.146 8.19824 9.58174 8.23867 10.031C8.27461 10.4667 8.5666 10.7946 9.00684 11.2888L9.03828 11.3247C9.76153 12.1423 9.96817 12.3579 10.2557 12.6499C10.3051 12.6993 10.3545 12.7532 10.4129 12.8116L10.4938 12.897C10.8262 13.2429 11.0104 13.4315 11.8549 14.1728L11.9043 14.2177C12.2637 14.5321 12.5287 14.7612 12.915 14.7612C13.3148 14.7612 13.7551 14.5097 14.5906 13.9751C14.676 13.9212 14.7973 13.8897 14.95 13.8897C15.9248 13.8897 17.6049 15.0038 18.1934 15.6103C18.7324 16.1583 19.002 16.5716 18.1664 17.5823Z"
+                    fill="#6B8B3D" />
+                </svg>
+                +7 (391) 298-677-89</a>
+            </div>
+
+            <div class="contacts__item">
+              <h3 class="contacts__title">Кемерово</h3>
+              <p class="contacts__text">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 22.6282L12.6344 22.1813C12.3906 21.8563 6.17499 14.5845 6.17499 10.2376C6.17499 6.45947 9.26249 3.4126 13 3.4126C16.7375 3.4126 19.825 6.5001 19.825 10.2376C19.825 14.5845 13.6094 21.897 13.3656 22.1813L13 22.6282ZM13 4.34697C9.74999 4.34697 7.14999 6.9876 7.14999 10.197C7.14999 13.6095 11.6594 19.4188 13 21.0845C14.3406 19.4188 18.85 13.6501 18.85 10.197C18.85 6.9876 16.25 4.34697 13 4.34697Z"
+                    fill="#6B8B3D" />
+                  <path
+                    d="M13 12.8377C11.5781 12.8377 10.4 11.6596 10.4 10.2377C10.4 8.81582 11.5781 7.6377 13 7.6377C14.4219 7.6377 15.6 8.81582 15.6 10.2377C15.6 11.6596 14.4219 12.8377 13 12.8377ZM13 8.6127C12.1062 8.6127 11.375 9.34395 11.375 10.2377C11.375 11.1314 12.1062 11.8627 13 11.8627C13.8937 11.8627 14.625 11.1314 14.625 10.2377C14.625 9.34395 13.8937 8.6127 13 8.6127Z"
+                    fill="#6B8B3D" />
+                </svg>
+                <span>Россия, г. Красноярск, ул.Красной Армии, 10 ТЦ "Квант", 3й этаж, павильон 31-15.</span>
+              </p>
+              <a class="contacts__phone" href="tel:+79132938990"><svg width="23" height="23" viewBox="0 0 23 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.683 15.0712C18.0272 14.3974 16.1629 13.1351 14.941 13.1351C14.658 13.1351 14.4109 13.1979 14.2088 13.3282C13.6113 13.7101 13.1352 14.0065 12.9061 14.0065C12.7803 14.0065 12.6455 13.8942 12.349 13.6382L12.2996 13.5933C11.4775 12.879 11.3023 12.6948 10.9834 12.3624L10.9025 12.2771C10.8441 12.2187 10.7947 12.1647 10.7453 12.1153C10.4668 11.8278 10.2647 11.6212 9.55039 10.8126L9.51895 10.7767C9.17754 10.3903 8.95293 10.1388 8.93946 9.95459C8.92598 9.7749 9.08321 9.48291 9.48301 8.93936C9.96817 8.2835 9.98614 7.4749 9.54141 6.53604C9.18653 5.79482 8.60703 5.08506 8.09492 4.46064L8.05 4.40674C7.60977 3.86768 7.09766 3.59814 6.52715 3.59814C5.89375 3.59814 5.36817 3.93955 5.08965 4.11924C5.06719 4.13271 5.04473 4.15068 5.02227 4.16416C4.39785 4.55947 3.94414 5.10303 3.77344 5.65557C3.51739 6.48662 3.34668 7.56475 4.57305 9.80635C5.63321 11.747 6.59453 13.0497 8.12188 14.6175C9.55938 16.0909 10.1973 16.5671 11.6258 17.6003C13.216 18.7503 14.7434 19.4106 15.8125 19.4106C16.8053 19.4106 17.5869 19.4106 18.701 18.0675C19.8689 16.6569 19.3838 15.7944 18.683 15.0712ZM18.1664 17.5823C17.268 18.6694 16.7514 18.6694 15.817 18.6694C14.9051 18.6694 13.49 18.0405 12.0346 16.9938C10.642 15.9876 10.0221 15.5249 8.625 14.0919C7.14707 12.578 6.21719 11.3157 5.19297 9.44248C4.11035 7.46143 4.23164 6.59443 4.45176 5.88018C4.56856 5.49834 4.91895 5.08955 5.39512 4.79307C5.41758 4.77959 5.44004 4.76162 5.46699 4.74814C5.70508 4.59541 6.10039 4.33936 6.53164 4.33936C6.89102 4.33936 7.20996 4.51904 7.51543 4.89189L7.56035 4.9458C8.70586 6.34736 9.59981 7.58721 8.92598 8.50361C8.44981 9.146 8.19824 9.58174 8.23867 10.031C8.27461 10.4667 8.5666 10.7946 9.00684 11.2888L9.03828 11.3247C9.76153 12.1423 9.96817 12.3579 10.2557 12.6499C10.3051 12.6993 10.3545 12.7532 10.4129 12.8116L10.4938 12.897C10.8262 13.2429 11.0104 13.4315 11.8549 14.1728L11.9043 14.2177C12.2637 14.5321 12.5287 14.7612 12.915 14.7612C13.3148 14.7612 13.7551 14.5097 14.5906 13.9751C14.676 13.9212 14.7973 13.8897 14.95 13.8897C15.9248 13.8897 17.6049 15.0038 18.1934 15.6103C18.7324 16.1583 19.002 16.5716 18.1664 17.5823Z"
+                    fill="#6B8B3D" />
+                </svg>
+                +7 (913) 293-89-90</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <iframe class="map"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3Afbcefb6839eadfe2a04506ead052118e476f89a894be6fe59f3326975a3c91ac&amp;source=constructor"
+        width="100%" height="450" frameborder="0">
+      </iframe>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+
+          <div class="footer__column">
+            <h3>Категории товара</h3>
+            <ul>
+              <li><a href="#">Вооружение</a></li>
+              <li><a href="#">Расходники</a></li>
+              <li><a href="#">Снаряжение</a></li>
+              <li><a href="#">Средства защиты</a></li>
+              <li><a href="#">Пиротехника</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h3>О компании</h3>
+            <ul>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Гарантия</a></li>
+              <li><a href="#">Статьи</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h3>мой аккаунт</h3>
+            <ul>
+              <li><a href="#">Мой аккаунт</a></li>
+              <li><a href="#">Регистрация</a></li>
+              <li><a href="#">Войти</a></li>
+              <li><a href="#">Система лояльности</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__socials">
+            <ul>
+              <li><a href="#"><img src="./img/footer-facebook.png" alt="Facebook"></a></li>
+              <li><a href="#"><img src="./img/footer-instagram.png" alt="Instagram"></a></li>
+              <li><a href="#"><img src="./img/footer-youtube.png" alt="YouTube"></a></li>
+              <li><a href="#"><img src="./img/footer-twitter.png" alt="Twitter"></a></li>
+              <li><a href="#"><img src="./img/footer-pinterest.png" alt="Pinterest"></a></li>
+              <li><a href="#"><img src="./img/footer-blog.png" alt="Blog"></a></li>
+            </ul>
+            <h3>мы в соц сетях</h3>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#">Политика конфиденцияльности</a>
+        <p>All Rights Reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </script>
+
+  <script type="module">
+    const productCardSwiper = new Swiper(".product-card-swapper", {
+      loop: true,
+      slidesPerView: "auto",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    
+    const heroSwiper = new Swiper(".hero-swiper", {
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

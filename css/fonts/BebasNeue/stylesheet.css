@@ -1,0 +1,20 @@
+@font-face {
+  src: url("./BebasNeue-Regular.ttf");
+  font-family: "Bebas Neue";
+  font-weight: 400;
+}
+@font-face {
+  src: url("./BebasNeue-Regular.otf");
+  font-family: "Bebas Neue";
+  font-weight: 400;
+}
+@font-face {
+  src: url("./BebasNeue-Bold.ttf");
+  font-family: "Bebas Neue";
+  font-weight: 700;
+}
+@font-face {
+  src: url("./BebasNeue-Bold.otf");
+  font-family: "Bebas Neue";
+  font-weight: 700;
+}

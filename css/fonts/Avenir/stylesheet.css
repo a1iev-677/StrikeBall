@@ -1,0 +1,11 @@
+@font-face {
+  src: url("./Avenir-Book.ttf");
+  font-family: "Avenir Book";
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("./Avenir-Medium.ttf");
+  font-family: "Avenir";
+  font-weight: normal;
+}
